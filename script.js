@@ -43,13 +43,13 @@ function createPixel() {
 
 function chooseOption() {
   let select = document.querySelector(".option");
-  if ((select.value = "Default")) {
+  if (select.value == "Default") {
     style = 1;
   }
-  if ((select.value = "colourful")) {
+  if (select.value == "colourful") {
     style = 2;
   }
-  if ((select.value = "black")) {
+  if (select.value == "black") {
     style = 3;
   }
 }
